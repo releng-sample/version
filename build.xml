@@ -18,5 +18,8 @@
 -->
 <project name="version" default="default">
 	<property file="build.properties"/>
-	<target name="default"/>
+	<target name="default">
+		<property environment="env"/>
+		<echoproperties prefix="env"/>
+	</target>
 </project>
