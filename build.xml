@@ -19,6 +19,7 @@
 <project name="version" default="default">
 	<property file="build.properties"/>
 	<target name="default">
+		<echo message="this should be feature-3456"/>
 		<property environment="env"/>
 		<echoproperties prefix="env"/>
 	</target>
