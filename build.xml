@@ -18,6 +18,7 @@
 -->
 <project name="version" default="default">
 	<property file="build.properties"/>
+	<echo message="this should be feature wdtk-6789"/>
 	<target name="default">
 		<property environment="env"/>
 		<echoproperties prefix="env"/>
