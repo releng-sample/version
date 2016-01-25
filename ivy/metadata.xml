@@ -20,6 +20,6 @@
     <info 
         organisation="org.example"
         module="version"
-        branch="feature/wdtk-6789"/>
+        branch="feature/wdtk-6789"
         status="integration"/>
 </ivy-module>
